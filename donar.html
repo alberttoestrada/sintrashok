@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>donar</title>
+  <link href="style-agua.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <script src="/donar.js"></script>
+  <div class="box img">
+	</div>
+    <div class="caja"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+  <fieldset background:"#ff000">
+          <legend>¡Ayudanos a seguir!</legend>
+    <form id="form3">
+      <p>Nombre:
+      <input type="text" name="nombre" required><br>
+      Numero de Contacto: <input type="tel" name="telefono" size="30"><br>
+      Correo: <input type="email" name="email" size="30" required>
+        <br>
+      Numero de tarjeta: <input type="number" name="tarjeta" size="30"><br>
+      Donar: <input type="checkbox" name="Casilla" value="casilla1">
+      <br>
+      Aportar tema: <input type="checkbox" name="Casilla" value="casilla2">
+      <br>
+      Informes: <input type="checkbox" name="Casilla" value="casilla3"> <br>
+       <textarea name="texto" rows="10" cols="30" placeholder="Emita un comentario"></textarea><br>
+       <input type="submit" value="Enviar" id="donarp" onclick="buttononclick();limpiarFormulario()" onmouseover="stylus()" onmouseout="stylus2()">
+      <input type="reset" value="Borrar" id="borrar2" onmouseover="stylus3()" onmouseout="stylus4()"> 
+      </p>
+    </form>
+      </fieldset>
+      <script src="/plugins/sweetalert2.all.min.js"></script>
+</body>
+</html>

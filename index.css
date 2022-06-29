@@ -1,0 +1,159 @@
+body{
+    height:665px;
+    background-image: url("/imgs/sin.png");
+    background-size: 10rem;
+  }
+  p{
+    background: white; 
+    font-family: fantasy;
+  }
+  h1{
+    background: white; 
+    font-family: fantasy;
+  }
+  
+  .caja{
+    background-image:url('/imgs/trash.png');
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video{
+     margin: 0 auto; width: 400px; }
+  
+  .definicion{
+    padding: 3px 10px;
+  border: green 5px solid;
+  border-top-left-radius: 20px;
+  }
+  fieldset{
+    clear:  both;
+    width: 500px;
+    margin-left: 35%;
+  }
+  .texto{
+    font-family:Courier New;
+    text-align: justify;
+    padding: 3px 10px;
+    border: green 5px solid;
+    border-top-left-radius: 20px;
+  }
+  .footer-basic {
+    padding:40px 0;
+    background-color:#27b037;
+    color:#ffffff;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#0dce47;
+    margin-bottom:0;
+  }
+  :root {
+      --bg: #ffffff;
+      --color: #2fd20f;
+      --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .wrapper {
+      padding: 1.5rem 0;
+      filter: url('#goo');
+  }
+  
+  .button {
+      display: inline-block;
+      text-align: center;
+      background: var(--color);
+      color: var(--bg);
+      font-weight: bold;
+      padding: 1.18em 1.32em 1.03em;
+      line-height: 1;
+      border-radius: 1em;
+      position: relative;
+      min-width: 8.23em;
+      text-decoration: none;
+      font-family: var(--font);
+      font-size: 1.25rem;
+  }
+  
+  .button:before,
+  .button:after {
+      width: 4.4em;
+      height: 2.95em;
+      position: absolute;
+      content: "";
+      display: inline-block;
+      background: var(--color);
+      border-radius: 50%;
+      transition: transform 1s ease;
+      transform: scale(0);
+      z-index: -1;
+  }
+  
+  .button:before {
+      top: -25%;
+      left: 20%;
+  }
+  
+  .button:after {
+      bottom: -25%;
+      right: 20%;
+  }
+  
+  .button:hover:before,
+  .button:hover:after {
+      transform: none;
+  }
+  .popup-class{
+    border-radius: 50%;
+
+  }
